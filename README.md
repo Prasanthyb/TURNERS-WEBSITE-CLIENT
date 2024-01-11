@@ -19,7 +19,7 @@
 
 ##Imported and used mongoose.
 
-####Other important packages used are--
+#Other important packages used are--
 
 #bcryptjs:
 
@@ -29,7 +29,7 @@
 
 ## Provides an easy way to add color to your console logs. This is useful for highlighting different types of log messages or making the console output more readable.
 
-#ookie-parser:
+#cookie-parser:
 
 ## Middleware for parsing cookies attached to the client's request object. It simplifies working with cookies in Express applications.
 
@@ -40,12 +40,15 @@
 #debug:
 
 ## A debugging utility that allows you to print debug messages to the console. It's helpful during development to trace the flow of your application and identify issues.
-#otenv:
+
+#dotenv:
 
 ##Loads environment variables from a .env file into process.env. This is useful for keeping sensitive information, such as API keys or database credentials, outside of your codebase.
+
 #express:
 
 ## A web application framework for Node.js. It simplifies the process of building robust, scalable, and maintainable web applications by providing a set of features and tools
+
 #mongoose:
 
 #jest
