@@ -1,70 +1,64 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#This is a simple website for TURNERS CAR AUCTIONS 
 
-## Available Scripts
+##React is used for the front end design.
 
-In the project directory, you can run:
+## There is login page which is connected to the server mongodb databse.
 
-### `npm start`
+## Authentication is made for login users.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## A car image is uploading for AZURE IMAGE ANALYSIS and retrieving similar cars from the mongodb database.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Authentication is made for login users.
 
-### `npm test`
+#MongoDB atlas is used as database.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##Express generator is installed and used with Node js backend.
 
-### `npm run build`
+##Created Command Line Argument Functions to use external npm commands for database manipulations 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##Imported and used mongoose.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+####Other important packages used are--
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#bcryptjs:
 
-### `npm run eject`
+## Used for hashing passwords securely. It's commonly employed for storing user passwords in databases, making it more challenging for attackers to compromise user accounts.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#colors:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Provides an easy way to add color to your console logs. This is useful for highlighting different types of log messages or making the console output more readable.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#ookie-parser:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Middleware for parsing cookies attached to the client's request object. It simplifies working with cookies in Express applications.
 
-## Learn More
+#cors:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Enables Cross-Origin Resource Sharing (CORS) in your Express application. It allows or restricts cross-origin HTTP requests, which is crucial when your frontend and backend are on different domains.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#debug:
 
-### Code Splitting
+## A debugging utility that allows you to print debug messages to the console. It's helpful during development to trace the flow of your application and identify issues.
+#otenv:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##Loads environment variables from a .env file into process.env. This is useful for keeping sensitive information, such as API keys or database credentials, outside of your codebase.
+#express:
 
-### Analyzing the Bundle Size
+## A web application framework for Node.js. It simplifies the process of building robust, scalable, and maintainable web applications by providing a set of features and tools
+#mongoose:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#jest
 
-### Making a Progressive Web App
+##for testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#jest --coverage
 
-### Advanced Configuration
+# An ODM (Object Data Modeling) library for MongoDB and Node.js. It simplifies interactions with MongoDB databases by providing a schema-based solution for modeling application data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+morgan:
 
-### Deployment
+## A middleware for logging HTTP requests in your Express application. It provides information about incoming requests, such as the HTTP method, status code, and response time. This is useful for monitoring and debugging.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
