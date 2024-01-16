@@ -1,7 +1,10 @@
+# TURNERS WEBSIT-FRONTEND
 
-#This is a simple website for TURNERS CAR AUCTIONS 
+# BACKEND URL IS  https://github.com/Prasanthyb/TURNERS-WEBSITE-SERVER.git
 
-##React is used for the front end design.
+# This is a simple website for TURNERS CAR AUCTIONS 
+
+## React is used for the front end design.
 
 ## There is login page which is connected to the server mongodb databse.
 
@@ -11,57 +14,60 @@
 
 ## Authentication is made for login users.
 
-#MongoDB atlas is used as database.
+# Bootstrap for design purpose.
 
-##Express generator is installed and used with Node js backend.
+# MongoDB atlas is used as database.
 
-##Created Command Line Argument Functions to use external npm commands for database manipulations 
+## Express generator is installed and used with Node js backend.
 
-##Imported and used mongoose.
+## Created Command Line Argument Functions to use external npm commands for database manipulations 
 
-#Other important packages used are--
+## Imported and used mongoose.
 
-#bcryptjs:
+# Other important packages used are--
+
+# bcryptjs:
 
 ## Used for hashing passwords securely. It's commonly employed for storing user passwords in databases, making it more challenging for attackers to compromise user accounts.
 
-#colors:
+# colors:
 
 ## Provides an easy way to add color to your console logs. This is useful for highlighting different types of log messages or making the console output more readable.
 
-#cookie-parser:
+# cookie-parser:
 
 ## Middleware for parsing cookies attached to the client's request object. It simplifies working with cookies in Express applications.
 
-#cors:
+# cors:
 
 ## Enables Cross-Origin Resource Sharing (CORS) in your Express application. It allows or restricts cross-origin HTTP requests, which is crucial when your frontend and backend are on different domains.
 
-#debug:
+# debug:
 
 ## A debugging utility that allows you to print debug messages to the console. It's helpful during development to trace the flow of your application and identify issues.
 
-#dotenv:
+# dotenv:
 
-##Loads environment variables from a .env file into process.env. This is useful for keeping sensitive information, such as API keys or database credentials, outside of your codebase.
+## Loads environment variables from a .env file into process.env. This is useful for keeping sensitive information, such as API keys or database credentials, outside of your codebase.
 
-#express:
+# express:
 
 ## A web application framework for Node.js. It simplifies the process of building robust, scalable, and maintainable web applications by providing a set of features and tools
 
-#mongoose:
+# mongoose:
 
 #jest
 
-##for testing
+## for testing
 
-#jest --coverage
+# jest --coverage
 
 # An ODM (Object Data Modeling) library for MongoDB and Node.js. It simplifies interactions with MongoDB databases by providing a schema-based solution for modeling application data.
 
-morgan:
+# morgan:
 
 ## A middleware for logging HTTP requests in your Express application. It provides information about incoming requests, such as the HTTP method, status code, and response time. This is useful for monitoring and debugging.
 
+# JSON WEBTOKEN for authentication purpose
 
 
